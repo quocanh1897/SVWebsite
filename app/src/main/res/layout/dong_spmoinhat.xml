@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.CardView
+    android:layout_margin="4dp"
+    android:id="@+id/cardview"
+    app:cardCornerRadius="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="top|left"
+            android:src="@drawable/newcorner"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/imageviewsp"
+                android:layout_width="98dp"
+                android:layout_height="98dp" />
+            <TextView
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="Tên sp"
+                android:id="@+id/textviewtensp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textviewgiasp"
+                android:textSize="17dp"
+                android:textColor="#f20"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
